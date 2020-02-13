@@ -1,0 +1,22 @@
+platform :ios, '11.0'
+
+target 'StellaPOS' do
+
+  use_frameworks!
+  
+  pod 'CocoaLumberjack/Swift'
+#  pod 'amplify-tools'
+#  pod 'Amplify'
+#  pod 'AWSPluginsCore'
+#  pod 'AmplifyPlugins/AWSAPIPlugin'
+
+  target 'StellaPOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'StellaPOSUITests' do
+    # Pods for testing
+  end
+
+end

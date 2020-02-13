@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070A036D2FF501AD789B6AD3 /* Pods_StellaPOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF8FB40C7838B831E20F4FF /* Pods_StellaPOSTests.framework */; };
+		9A2DC7BA23F43CAB00C9E33E /* HerbariumProducts.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A2DC7B923F43CAB00C9E33E /* HerbariumProducts.json */; };
+		9A46384E23E5918600A76B92 /* RootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A46384D23E5918600A76B92 /* RootController.swift */; };
+		9A46385023E83C2800A76B92 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A46384F23E83C2800A76B92 /* MasterViewController.swift */; };
+		9A46385223E85E7000A76B92 /* ProductCollectionReusableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A46385123E85E7000A76B92 /* ProductCollectionReusableHeaderView.swift */; };
+		9A78B49F23F0C9CC00277907 /* StarIO_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A78B49C23F0C9CC00277907 /* StarIO_Extension.framework */; };
+		9A78B4A023F0C9CC00277907 /* StarIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A78B49D23F0C9CC00277907 /* StarIO.framework */; };
+		9A78B4A123F0C9CC00277907 /* SMCloudServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A78B49E23F0C9CC00277907 /* SMCloudServices.framework */; };
+		9A78B4A323F0CA1100277907 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A78B4A223F0CA1100277907 /* ExternalAccessory.framework */; };
+		9A78B4A523F0CA2500277907 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A78B4A423F0CA2500277907 /* CoreBluetooth.framework */; };
+		9A78B4B023F0CD0C00277907 /* iDock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A78B48923F0B82C00277907 /* iDock.framework */; };
+		9A7D73D123CD424A008C3690 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7D73D023CD424A008C3690 /* AppDelegate.swift */; };
+		9A7D73D623CD424A008C3690 /* StellaPOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A7D73D423CD424A008C3690 /* StellaPOS.xcdatamodeld */; };
+		9A7D73DA23CD424B008C3690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A7D73D923CD424B008C3690 /* Assets.xcassets */; };
+		9A7D73E023CD424B008C3690 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7D73DE23CD424B008C3690 /* LaunchScreen.storyboard */; };
+		9A7D73EB23CD424C008C3690 /* StellaPOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7D73EA23CD424C008C3690 /* StellaPOSTests.swift */; };
+		9A7D73F623CD424C008C3690 /* StellaPOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7D73F523CD424C008C3690 /* StellaPOSUITests.swift */; };
+		9A7D741023CD96E0008C3690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7D740F23CD96E0008C3690 /* Main.storyboard */; };
+		9A7D741223CD9745008C3690 /* AppCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7D741123CD9745008C3690 /* AppCore.swift */; };
+		C7DA79C47C81534DA0DCD185 /* Pods_StellaPOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2EDDC957140F42ACD46F56 /* Pods_StellaPOS.framework */; };
+		F9926AB6BB0054B3E97AD0B6 /* Pods_StellaPOS_StellaPOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BB06A4C1CB74AFDF2FB9E8 /* Pods_StellaPOS_StellaPOSUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A7D73E723CD424C008C3690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A7D73C523CD424A008C3690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A7D73CC23CD424A008C3690;
+			remoteInfo = StellaPOS;
+		};
+		9A7D73F223CD424C008C3690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A7D73C523CD424A008C3690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A7D73CC23CD424A008C3690;
+			remoteInfo = StellaPOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F54EE17567A66C04006CADB /* Pods-StellaPOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StellaPOSTests.release.xcconfig"; path = "Target Support Files/Pods-StellaPOSTests/Pods-StellaPOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E0FCFC8B98DB95DA49F7C18 /* Pods-StellaPOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StellaPOS.release.xcconfig"; path = "Target Support Files/Pods-StellaPOS/Pods-StellaPOS.release.xcconfig"; sourceTree = "<group>"; };
+		466A26D9D79223168ED40AA7 /* Pods-StellaPOS-StellaPOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StellaPOS-StellaPOSUITests.release.xcconfig"; path = "Target Support Files/Pods-StellaPOS-StellaPOSUITests/Pods-StellaPOS-StellaPOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		788A02BC689C8C77579C1C55 /* Pods-StellaPOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StellaPOS.debug.xcconfig"; path = "Target Support Files/Pods-StellaPOS/Pods-StellaPOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9A2DC7B923F43CAB00C9E33E /* HerbariumProducts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HerbariumProducts.json; sourceTree = "<group>"; };
+		9A46384D23E5918600A76B92 /* RootController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootController.swift; sourceTree = "<group>"; };
+		9A46384F23E83C2800A76B92 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		9A46385123E85E7000A76B92 /* ProductCollectionReusableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionReusableHeaderView.swift; sourceTree = "<group>"; };
+		9A69395423F14CF900DA2F5F /* Stella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stella.h; sourceTree = "<group>"; };
+		9A78B48923F0B82C00277907 /* iDock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iDock.framework; sourceTree = "<group>"; };
+		9A78B49C23F0C9CC00277907 /* StarIO_Extension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StarIO_Extension.framework; sourceTree = "<group>"; };
+		9A78B49D23F0C9CC00277907 /* StarIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StarIO.framework; sourceTree = "<group>"; };
+		9A78B49E23F0C9CC00277907 /* SMCloudServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMCloudServices.framework; sourceTree = "<group>"; };
+		9A78B4A223F0CA1100277907 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		9A78B4A423F0CA2500277907 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		9A7D73CD23CD424A008C3690 /* POS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7D73D023CD424A008C3690 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A7D73D523CD424A008C3690 /* StellaPOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StellaPOS.xcdatamodel; sourceTree = "<group>"; };
+		9A7D73D923CD424B008C3690 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A7D73DF23CD424B008C3690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A7D73E123CD424B008C3690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7D73E623CD424C008C3690 /* StellaPOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StellaPOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7D73EA23CD424C008C3690 /* StellaPOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellaPOSTests.swift; sourceTree = "<group>"; };
+		9A7D73EC23CD424C008C3690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7D73F123CD424C008C3690 /* StellaPOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StellaPOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7D73F523CD424C008C3690 /* StellaPOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellaPOSUITests.swift; sourceTree = "<group>"; };
+		9A7D73F723CD424C008C3690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7D740F23CD96E0008C3690 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9A7D741123CD9745008C3690 /* AppCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCore.swift; sourceTree = "<group>"; };
+		AA2EDDC957140F42ACD46F56 /* Pods_StellaPOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StellaPOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACDAE7EFBD134E050295DE3 /* Pods-StellaPOS-StellaPOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StellaPOS-StellaPOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-StellaPOS-StellaPOSUITests/Pods-StellaPOS-StellaPOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFF8FB40C7838B831E20F4FF /* Pods_StellaPOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StellaPOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07DF527A8CEA22B9B1F411A /* Pods-StellaPOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StellaPOSTests.debug.xcconfig"; path = "Target Support Files/Pods-StellaPOSTests/Pods-StellaPOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6BB06A4C1CB74AFDF2FB9E8 /* Pods_StellaPOS_StellaPOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StellaPOS_StellaPOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDEAE7AF044443489236F9D /* amplifyxc.config */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = amplifyxc.config; path = ./amplifyxc.config; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A7D73CA23CD424A008C3690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A78B4A323F0CA1100277907 /* ExternalAccessory.framework in Frameworks */,
+				C7DA79C47C81534DA0DCD185 /* Pods_StellaPOS.framework in Frameworks */,
+				9A78B4B023F0CD0C00277907 /* iDock.framework in Frameworks */,
+				9A78B4A023F0C9CC00277907 /* StarIO.framework in Frameworks */,
+				9A78B4A523F0CA2500277907 /* CoreBluetooth.framework in Frameworks */,
+				9A78B4A123F0C9CC00277907 /* SMCloudServices.framework in Frameworks */,
+				9A78B49F23F0C9CC00277907 /* StarIO_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7D73E323CD424C008C3690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070A036D2FF501AD789B6AD3 /* Pods_StellaPOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7D73EE23CD424C008C3690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9926AB6BB0054B3E97AD0B6 /* Pods_StellaPOS_StellaPOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A7D73C423CD424A008C3690 = {
+			isa = PBXGroup;
+			children = (
+				9A69395423F14CF900DA2F5F /* Stella.h */,
+				9A7D73CF23CD424A008C3690 /* StellaPOS */,
+				9A7D73E923CD424C008C3690 /* StellaPOSTests */,
+				9A7D73F423CD424C008C3690 /* StellaPOSUITests */,
+				9A7D73CE23CD424A008C3690 /* Products */,
+				9A7D740323CD82ED008C3690 /* Frameworks */,
+				D282B09FC4B4763F933E7D4D /* Pods */,
+				BDDEAE7AF044443489236F9D /* amplifyxc.config */,
+			);
+			sourceTree = "<group>";
+		};
+		9A7D73CE23CD424A008C3690 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A7D73CD23CD424A008C3690 /* POS.app */,
+				9A7D73E623CD424C008C3690 /* StellaPOSTests.xctest */,
+				9A7D73F123CD424C008C3690 /* StellaPOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A7D73CF23CD424A008C3690 /* StellaPOS */ = {
+			isa = PBXGroup;
+			children = (
+				9A2DC7B923F43CAB00C9E33E /* HerbariumProducts.json */,
+				9A7D73D023CD424A008C3690 /* AppDelegate.swift */,
+				9A7D741123CD9745008C3690 /* AppCore.swift */,
+				9A46384D23E5918600A76B92 /* RootController.swift */,
+				9A46384F23E83C2800A76B92 /* MasterViewController.swift */,
+				9A46385123E85E7000A76B92 /* ProductCollectionReusableHeaderView.swift */,
+				9A7D73D923CD424B008C3690 /* Assets.xcassets */,
+				9A7D73DE23CD424B008C3690 /* LaunchScreen.storyboard */,
+				9A7D740F23CD96E0008C3690 /* Main.storyboard */,
+				9A7D73E123CD424B008C3690 /* Info.plist */,
+				9A7D73D423CD424A008C3690 /* StellaPOS.xcdatamodeld */,
+			);
+			path = StellaPOS;
+			sourceTree = "<group>";
+		};
+		9A7D73E923CD424C008C3690 /* StellaPOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A7D73EA23CD424C008C3690 /* StellaPOSTests.swift */,
+				9A7D73EC23CD424C008C3690 /* Info.plist */,
+			);
+			path = StellaPOSTests;
+			sourceTree = "<group>";
+		};
+		9A7D73F423CD424C008C3690 /* StellaPOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A7D73F523CD424C008C3690 /* StellaPOSUITests.swift */,
+				9A7D73F723CD424C008C3690 /* Info.plist */,
+			);
+			path = StellaPOSUITests;
+			sourceTree = "<group>";
+		};
+		9A7D740323CD82ED008C3690 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A78B4A423F0CA2500277907 /* CoreBluetooth.framework */,
+				9A78B4A223F0CA1100277907 /* ExternalAccessory.framework */,
+				9A78B49E23F0C9CC00277907 /* SMCloudServices.framework */,
+				9A78B49C23F0C9CC00277907 /* StarIO_Extension.framework */,
+				9A78B49D23F0C9CC00277907 /* StarIO.framework */,
+				9A78B48923F0B82C00277907 /* iDock.framework */,
+				AA2EDDC957140F42ACD46F56 /* Pods_StellaPOS.framework */,
+				B6BB06A4C1CB74AFDF2FB9E8 /* Pods_StellaPOS_StellaPOSUITests.framework */,
+				AFF8FB40C7838B831E20F4FF /* Pods_StellaPOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D282B09FC4B4763F933E7D4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				788A02BC689C8C77579C1C55 /* Pods-StellaPOS.debug.xcconfig */,
+				3E0FCFC8B98DB95DA49F7C18 /* Pods-StellaPOS.release.xcconfig */,
+				AACDAE7EFBD134E050295DE3 /* Pods-StellaPOS-StellaPOSUITests.debug.xcconfig */,
+				466A26D9D79223168ED40AA7 /* Pods-StellaPOS-StellaPOSUITests.release.xcconfig */,
+				B07DF527A8CEA22B9B1F411A /* Pods-StellaPOSTests.debug.xcconfig */,
+				0F54EE17567A66C04006CADB /* Pods-StellaPOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A7D73CC23CD424A008C3690 /* StellaPOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7D73FA23CD424C008C3690 /* Build configuration list for PBXNativeTarget "StellaPOS" */;
+			buildPhases = (
+				73A3DB12C14C2E635A3607FA /* [CP] Check Pods Manifest.lock */,
+				9A7D73C923CD424A008C3690 /* Sources */,
+				9A7D73CA23CD424A008C3690 /* Frameworks */,
+				9A7D73CB23CD424A008C3690 /* Resources */,
+				619B08186D15002110CA7C09 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StellaPOS;
+			productName = StellaPOS;
+			productReference = 9A7D73CD23CD424A008C3690 /* POS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A7D73E523CD424C008C3690 /* StellaPOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7D73FD23CD424C008C3690 /* Build configuration list for PBXNativeTarget "StellaPOSTests" */;
+			buildPhases = (
+				24D7243254C65D76FBF4571B /* [CP] Check Pods Manifest.lock */,
+				9A7D73E223CD424C008C3690 /* Sources */,
+				9A7D73E323CD424C008C3690 /* Frameworks */,
+				9A7D73E423CD424C008C3690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A7D73E823CD424C008C3690 /* PBXTargetDependency */,
+			);
+			name = StellaPOSTests;
+			productName = StellaPOSTests;
+			productReference = 9A7D73E623CD424C008C3690 /* StellaPOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A7D73F023CD424C008C3690 /* StellaPOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7D740023CD424C008C3690 /* Build configuration list for PBXNativeTarget "StellaPOSUITests" */;
+			buildPhases = (
+				07B8235060566829EABB3744 /* [CP] Check Pods Manifest.lock */,
+				9A7D73ED23CD424C008C3690 /* Sources */,
+				9A7D73EE23CD424C008C3690 /* Frameworks */,
+				9A7D73EF23CD424C008C3690 /* Resources */,
+				0B0E2B127849B7DC9C84BCCF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A7D73F323CD424C008C3690 /* PBXTargetDependency */,
+			);
+			name = StellaPOSUITests;
+			productName = StellaPOSUITests;
+			productReference = 9A7D73F123CD424C008C3690 /* StellaPOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A7D73C523CD424A008C3690 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Miles Fishman";
+				TargetAttributes = {
+					9A7D73CC23CD424A008C3690 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					9A7D73E523CD424C008C3690 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 9A7D73CC23CD424A008C3690;
+					};
+					9A7D73F023CD424C008C3690 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 9A7D73CC23CD424A008C3690;
+					};
+				};
+			};
+			buildConfigurationList = 9A7D73C823CD424A008C3690 /* Build configuration list for PBXProject "StellaPOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A7D73C423CD424A008C3690;
+			productRefGroup = 9A7D73CE23CD424A008C3690 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A7D73CC23CD424A008C3690 /* StellaPOS */,
+				9A7D73E523CD424C008C3690 /* StellaPOSTests */,
+				9A7D73F023CD424C008C3690 /* StellaPOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A7D73CB23CD424A008C3690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7D73E023CD424B008C3690 /* LaunchScreen.storyboard in Resources */,
+				9A2DC7BA23F43CAB00C9E33E /* HerbariumProducts.json in Resources */,
+				9A7D741023CD96E0008C3690 /* Main.storyboard in Resources */,
+				9A7D73DA23CD424B008C3690 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7D73E423CD424C008C3690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7D73EF23CD424C008C3690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07B8235060566829EABB3744 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StellaPOS-StellaPOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B0E2B127849B7DC9C84BCCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StellaPOS-StellaPOSUITests/Pods-StellaPOS-StellaPOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StellaPOS-StellaPOSUITests/Pods-StellaPOS-StellaPOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StellaPOS-StellaPOSUITests/Pods-StellaPOS-StellaPOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24D7243254C65D76FBF4571B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StellaPOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		619B08186D15002110CA7C09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StellaPOS/Pods-StellaPOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StellaPOS/Pods-StellaPOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StellaPOS/Pods-StellaPOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73A3DB12C14C2E635A3607FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StellaPOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A7D73C923CD424A008C3690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A46385023E83C2800A76B92 /* MasterViewController.swift in Sources */,
+				9A7D73D623CD424A008C3690 /* StellaPOS.xcdatamodeld in Sources */,
+				9A7D73D123CD424A008C3690 /* AppDelegate.swift in Sources */,
+				9A7D741223CD9745008C3690 /* AppCore.swift in Sources */,
+				9A46385223E85E7000A76B92 /* ProductCollectionReusableHeaderView.swift in Sources */,
+				9A46384E23E5918600A76B92 /* RootController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7D73E223CD424C008C3690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7D73EB23CD424C008C3690 /* StellaPOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7D73ED23CD424C008C3690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7D73F623CD424C008C3690 /* StellaPOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A7D73E823CD424C008C3690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A7D73CC23CD424A008C3690 /* StellaPOS */;
+			targetProxy = 9A7D73E723CD424C008C3690 /* PBXContainerItemProxy */;
+		};
+		9A7D73F323CD424C008C3690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A7D73CC23CD424A008C3690 /* StellaPOS */;
+			targetProxy = 9A7D73F223CD424C008C3690 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A7D73DE23CD424B008C3690 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A7D73DF23CD424B008C3690 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A7D73F823CD424C008C3690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_ON_DEMAND_RESOURCES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A7D73F923CD424C008C3690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_ON_DEMAND_RESOURCES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A7D73FB23CD424C008C3690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 788A02BC689C8C77579C1C55 /* Pods-StellaPOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = WMVNZYDS86;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+					"$(PROJECT_DIR)/StellaPOS",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = StellaPOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				"OTHER_LDFLAGS[arch=*]" = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milesFishman.StellaPOS;
+				PRODUCT_NAME = POS;
+				PROVISIONING_PROFILE_SPECIFIER = stellaPOS;
+				SWIFT_OBJC_BRIDGING_HEADER = Stella.h;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		9A7D73FC23CD424C008C3690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0FCFC8B98DB95DA49F7C18 /* Pods-StellaPOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = WMVNZYDS86;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+					"$(PROJECT_DIR)/StellaPOS",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = StellaPOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milesFishman.StellaPOS;
+				PRODUCT_NAME = POS;
+				PROVISIONING_PROFILE_SPECIFIER = stellaPOS;
+				SWIFT_OBJC_BRIDGING_HEADER = Stella.h;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Release;
+		};
+		9A7D73FE23CD424C008C3690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B07DF527A8CEA22B9B1F411A /* Pods-StellaPOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WMVNZYDS86;
+				INFOPLIST_FILE = StellaPOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.milesFishman.StellaPOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StellaPOS.app/StellaPOS";
+			};
+			name = Debug;
+		};
+		9A7D73FF23CD424C008C3690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F54EE17567A66C04006CADB /* Pods-StellaPOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WMVNZYDS86;
+				INFOPLIST_FILE = StellaPOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.milesFishman.StellaPOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StellaPOS.app/StellaPOS";
+			};
+			name = Release;
+		};
+		9A7D740123CD424C008C3690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AACDAE7EFBD134E050295DE3 /* Pods-StellaPOS-StellaPOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WMVNZYDS86;
+				INFOPLIST_FILE = StellaPOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.milesFishman.StellaPOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StellaPOS;
+			};
+			name = Debug;
+		};
+		9A7D740223CD424C008C3690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466A26D9D79223168ED40AA7 /* Pods-StellaPOS-StellaPOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WMVNZYDS86;
+				INFOPLIST_FILE = StellaPOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.milesFishman.StellaPOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StellaPOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A7D73C823CD424A008C3690 /* Build configuration list for PBXProject "StellaPOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7D73F823CD424C008C3690 /* Debug */,
+				9A7D73F923CD424C008C3690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A7D73FA23CD424C008C3690 /* Build configuration list for PBXNativeTarget "StellaPOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7D73FB23CD424C008C3690 /* Debug */,
+				9A7D73FC23CD424C008C3690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A7D73FD23CD424C008C3690 /* Build configuration list for PBXNativeTarget "StellaPOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7D73FE23CD424C008C3690 /* Debug */,
+				9A7D73FF23CD424C008C3690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A7D740023CD424C008C3690 /* Build configuration list for PBXNativeTarget "StellaPOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7D740123CD424C008C3690 /* Debug */,
+				9A7D740223CD424C008C3690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9A7D73D423CD424A008C3690 /* StellaPOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9A7D73D523CD424A008C3690 /* StellaPOS.xcdatamodel */,
+			);
+			currentVersion = 9A7D73D523CD424A008C3690 /* StellaPOS.xcdatamodel */;
+			path = StellaPOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9A7D73C523CD424A008C3690 /* Project object */;
+}

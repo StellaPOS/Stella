@@ -1,0 +1,6 @@
+framework module Pods_StellaPOS {
+  umbrella header "Pods-StellaPOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
